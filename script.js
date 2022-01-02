@@ -14,7 +14,7 @@ function Validator() {
     const arrTour = []
     form.onsubmit = function(e) {
         const obj = {}
-        e.preventDefault();
+
         if (!tour.value) {
             message(tour, 'Vui lòng nhập dữ liệu')
         } else if (tour.value.length < 10) {
@@ -107,6 +107,7 @@ function Validator() {
             console.log(tong);
 
         } else {
+            e.preventDefault();
             console.log('Thất bại');
         }
 

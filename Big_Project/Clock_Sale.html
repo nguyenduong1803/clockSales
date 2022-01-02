@@ -11,8 +11,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,300;1,500&family=Poppins:ital,wght@0,600;0,800;1,600&family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,300;1,500&family=Poppins:ital,wght@0,600;0,800;1,600&family=Roboto+Mono&display=swap"
+        rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 
 <body>
@@ -24,9 +29,10 @@
                 <ul id="big-menu">
                     <li><a href="">Trang chủ</a></li>
                     <li><a href="">Giới thiệu</a></li>
-                    <li class="products"><a href="">Sản phẩm <ion-icon class="caret-down"name="caret-down-outline"></ion-icon></a>
+                    <li class="products"><a href="">Sản phẩm <ion-icon class="caret-down" name="caret-down-outline">
+                            </ion-icon></a>
                         <ul id="mini-menu">
-                            <li><a href="">Đồng hồ name</a> <a href="">Đồng hồ nữ</a></li>
+                            <li><a href="">Đồng hồ nam</a> <a href="">Đồng hồ nữ</a></li>
                             <li><a href="">Đồng hồ mới</a><a href="">Phụ kiện nam</a></li>
                             <li><a href="">Phụ kiện nữ</a><a href="">Đồng hồ thông minh</a></li>
                             <li><a href="">Đồng hồ Orien</a><a href="">Dây đồng hồ</a></li>
@@ -34,32 +40,36 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="">Tin tức</a></li>
+                        <a href="">Tin tức</a>
+                    </li>
                     <li>
-                        <a href="">Liên hệ</a></li>
+                        <a href="">Liên hệ</a>
+                    </li>
                 </ul>
             </div>
             <!-- giỏ hàng -search -login -->
             <div class="nav">
-                <div class="search">
+                <div class="searchs">
                     <ion-icon name="search-outline"></ion-icon>
                     <div class="input-search">
-                        <input type="text" id="seach" placeholder="Tìm kiếm sản phẩm">
+                        <input type="text" id="seachs" placeholder="Tìm kiếm sản phẩm">
                         <ion-icon name="search-circle-outline"></ion-icon>
                     </div>
                 </div>
                 <div class="login">
-                    <ion-icon name="person-circle-outline"></ion-icon>
-                    <div class="login-item">
-                        <p class="border-bot"> <a href="">Đăng nhập</a></p>
-                        <p><a href="">Đăng kí</a></p>
+                    <ion-icon class="" name="person-circle-outline"></ion-icon>
+                    <div class="login-items">
+                        <p class="border-bot"> <a href="" class="onlogin">Đăng nhập</a></p>
+                        <p><a href="" class="register">Đăng kí</a></p>
                     </div>
                 </div>
                 <div class="cart">
                     <ion-icon class="cart-current" name="cart-outline"></ion-icon>
                     <div class="cart-item">
                         <span class="cart-products">Không có sản phẩm nào</span>
+
                     </div>
+
                 </div>
             </div>
         </div>
@@ -94,202 +104,244 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="products">
-        <h2 class="products-title">DANH MỤC SẢN PHẨM</h2>
-        <div class="line"></div>
-        <div class="product-img">
-            <div class="product-man">
-                <div class="man-top zoom ">
-                    <img class="" src="asset/clock1.jpg" alt="">
-                    <div class="p-text">
-                        <h2 class="p-title">Đồng hồ nam</h2>
-                        <p class="p-detail">Xem thêm
-                            <ion-icon name="arrow-forward-outline"></ion-icon>
-                        </p>
+
+        <div class="products2">
+            <h2 class="products-title">DANH MỤC SẢN PHẨM</h2>
+            <div class="line"></div>
+            <div class="product-img">
+                <div class="product-man">
+                    <div class="man-top zoom ">
+                        <img class="" src="asset/clock1.jpg" alt="">
+                        <div class="p-text">
+                            <h2 class="p-title">Đồng hồ nam</h2>
+                            <p class="p-detail">Xem thêm
+                                <ion-icon name="arrow-forward-outline"></ion-icon>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="man-bot zoom ">
+                        <img class="" src="./asset/PhukienNu.jpg" alt="">
+                        <div class="p-texts">
+                            <h2 class="p-title">Phụ kiện nữ</h2>
+                            <p class="p-detail">Xem thêm
+                                <ion-icon name="arrow-forward-outline"></ion-icon>
+                            </p>
+                        </div>
                     </div>
                 </div>
-                <div class="man-bot zoom ">
-                    <img class="" src="./asset/PhukienNu.jpg" alt="">
-                    <div class="p-texts">
-                        <h2 class="p-title">Phụ kiện nữ</h2>
-                        <p class="p-detail">Xem thêm
-                            <ion-icon name="arrow-forward-outline"></ion-icon>
-                        </p>
+                <div class="product-feman">
+                    <div class="feman-top zoom ">
+                        <img class="" src="./asset/cate_3.jpg" alt="">
+                        <div class="p-texts">
+                            <h2 class="p-title">Đồng hồ nữ</h2>
+                            <p class="p-detail">Xem thêm
+                                <ion-icon name="arrow-forward-outline"></ion-icon>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="feman-bot zoom ">
+                        <img class="" src="./asset/pkNam.jpg" alt="">
+                        <div class="p-text">
+                            <h2 class="p-title">Phụ kiện nam</h2>
+                            <p class="p-detail">Xem thêm
+                                <ion-icon name="arrow-forward-outline"></ion-icon>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="product-feman">
-                <div class="feman-top zoom ">
-                    <img class="" src="./asset/cate_3.jpg" alt="">
-                    <div class="p-texts">
-                        <h2 class="p-title">Đồng hồ nữ</h2>
-                        <p class="p-detail">Xem thêm
-                            <ion-icon name="arrow-forward-outline"></ion-icon>
-                        </p>
-                    </div>
-                </div>
-                <div class="feman-bot zoom ">
-                    <img class="" src="./asset/pkNam.jpg" alt="">
-                    <div class="p-text">
-                        <h2 class="p-title">Phụ kiện nam</h2>
-                        <p class="p-detail">Xem thêm
-                            <ion-icon name="arrow-forward-outline"></ion-icon>
-                        </p>
-                    </div>
-                </div>
-            </div>
         </div>
-    </div>
-    <div class="top">
-        <h2 class="products-title">TOP SẢN PHẨM BÁN CHẠY</h2>
-        <div class="line"></div>
-    </div>
-    <div class="bestSeller">
-        <div class="sell-title">
-            <p class="manClock active">Đồng hồ nam</p>
-            <p class="femanClock  ">Đồng hồ nữ</p>
-            <p class="phuKien">Phụ kiện</p>
-        </div>
-        <div class="seller-product">
-        </div>
-        <div class="feman-product">
-        </div>
-        <div class="phuKien-product">
-        </div>
-    </div>
-    <div class="flash-sale">
-        <div class="flash-head">
-            <ion-icon class="flash-icon" name="flash-outline"></ion-icon>
-            <h2 class="products-title flash-h2">FLASH SALE HÀNG TUẦN</h2>
-        </div>
-        <div class="line"></div>
-        <div class="flash">
-            <div class="flash-img">
-                <img src="./asset/flashSale.jpg" alt="">
-            </div>
-            <div class="flash-info">
-                <h2 class="h2-bot">Black Link</h2>
-                <span class="minusPrice">3.500.000<u>đ</u></span>
-                <p class="money font-big">1.300.000<u>đ</u></p>
-                <div class="time">
-                    <div class="time-day time-item"></div>
-                    <div class="time-hour time-item"></div>
-                    <div class="time-minutes time-item"> </div>
-                    <div class="time-seconds time-item"></div>
-                </div>
-                <span>Đồng hồ MVMT Black Link dòng Classic với thiết kế tối giản tinh tế cho các quý ông hiện đại.<br> Nhập khẩu chính hãng từ US. Free ship toàn quốc.<br></span>
-                <button class="btn-sale">Mua ngay</button>
-            </div>
-        </div>
-    </div>
-    <div class="box-ManClock">
-        <div class="man-title">
-            <h2 class="products-title">ĐỒNG HỒ NAM</h2>
+        <div class="top">
+            <h2 class="products-title">TOP SẢN PHẨM BÁN CHẠY</h2>
             <div class="line"></div>
         </div>
-        <div class="man-head">
-            <div class="head-product">
-                <ul class="seller-item">
-                    <li><img src="./asset/clock2.jpg" alt=""> </li>
-                    <h2>Black Link</h2>
-                    <span class="minusPrice">4.000.000</span>
-                    <p class="money">5.200.000<u>đ</u></p>
-                    <ion-icon class="show" name="eye-outline"></ion-icon>
-                    <ion-icon class="add-cart" name="cart-outline"></ion-icon>
-                    <span class="sale">-23%</span>
-                </ul>
-                <ul class="seller-item">
-                    <li><img src="./asset/clock3.jpg" alt=""> </li>
-                    <h2>Black In</h2>
-                    <span class="minusPrice">2.000.000</span>
-                    <p class="money">3.200.000<u>đ</u></p>
-                    <ion-icon class="show" name="eye-outline"></ion-icon>
-                    <ion-icon class="add-cart" name="cart-outline"></ion-icon>
-                    <span class="sale">-33%</span>
-                </ul>
+        <div class="bestSeller">
+            <div class="sell-title">
+                <p class="manClock active">Đồng hồ nam</p>
+                <p class="femanClock  ">Đồng hồ nữ</p>
+                <p class="phuKien">Phụ kiện</p>
             </div>
-            <div class="head-banner">
-                <div class="detail-man">
-                    <p>Xem tất cả</p>
-                    <ion-icon name="arrow-forward-outline"></ion-icon>
+            <div class="man-seller">
+                <div class="seller-product">
                 </div>
-                <div class="zoom">
-                    <img src="./asset/ManBanner.jpg" alt="">
+                <div class="seller-product2">
+                </div>
+            </div>
+            <div class="feman-seller">
+                <div class="feman-product">
+                </div>
+                <div class="feman-product2">
+                </div>
+            </div>
+            <div class="item-seller">
+                <div class="phuKien-product">
+                </div>
+                <div class="phuKien-product2">
                 </div>
             </div>
         </div>
-        <div class="man-products">
-        </div>
-    </div>
-    <div class="box-femanClock">
-        <div class="feman-title">
-            <h2 class="products-title">ĐỒNG HỒ NỮ</h2>
+        <div class="flash-sale">
+            <div class="flash-head">
+                <ion-icon class="flash-icon" name="flash-outline"></ion-icon>
+                <h2 class="products-title flash-h2">FLASH SALE HÀNG TUẦN</h2>
+            </div>
             <div class="line"></div>
-            <div class="head-feman">
-                <div class="head-img zoom">
-                    <img src="./asset/clockFemale/bannerClock.jpg" alt="">
+            <div class="flash">
+                <div class="flash-img">
+                    <img src="./asset/flashSale.jpg" alt="">
                 </div>
-                <div class=" width">
-                    <ul class="seller-item margin">
-                        <li><img src="./asset/clockFemale/clockn1.jpg" alt=""> </li>
+                <div class="flash-info">
+                    <h2 class="h2-bot">Black Link</h2>
+                    <span class="minusPrice">3.500.000<u>đ</u></span>
+                    <p class="money font-big">1.300.000<u>đ</u></p>
+                    <div class="time">
+                        <div class="time-day time-item"></div>
+                        <div class="time-hour time-item"></div>
+                        <div class="time-minutes time-item"> </div>
+                        <div class="time-seconds time-item"></div>
+                    </div>
+                    <span>Đồng hồ MVMT Black Link dòng Classic với thiết kế tối giản tinh tế cho các quý ông hiện
+                        đại.<br>
+                        Nhập khẩu chính hãng từ US. Free ship toàn quốc.<br></span>
+                    <button class="btn-sale">Mua ngay</button>
+                </div>
+            </div>
+        </div>
+        <div class="box-ManClock">
+            <div class="man-title">
+                <h2 class="products-title">ĐỒNG HỒ NAM</h2>
+                <div class="line"></div>
+            </div>
+            <div class="man-head">
+                <div class="head-product">
+                    <ul class="seller-item">
+                        <li><img src="./asset/clock2.jpg" alt=""> </li>
                         <h2>Black Link</h2>
-                        <p class="money">2.000.000<u>đ</u></p>
+                        <span class="minusPrice">4.000.000</span>
+                        <p class="money">5.200.000<u>đ</u></p>
                         <ion-icon class="show" name="eye-outline"></ion-icon>
                         <ion-icon class="add-cart" name="cart-outline"></ion-icon>
-                        <span class="sale">-25%</span>
+                        <span class="sale">-23%</span>
                     </ul>
-                    <ul class="seller-item margin">
-                        <li> <img src="./asset/clockFemale/clockn3.jpg" alt=""></li>
-                        <h2>Slate</h2>
-                        <p class="money">10.000.000<u>đ</u></p>
+                    <ul class="seller-item">
+                        <li><img src="./asset/clock3.jpg" alt=""> </li>
+                        <h2>Black In</h2>
+                        <span class="minusPrice">2.000.000</span>
+                        <p class="money">3.200.000<u>đ</u></p>
                         <ion-icon class="show" name="eye-outline"></ion-icon>
                         <ion-icon class="add-cart" name="cart-outline"></ion-icon>
-                        <span class="sale">-29%</span>
+                        <span class="sale">-33%</span>
                     </ul>
                 </div>
+                <div class="head-banner">
+                    <div class="detail-man">
+                        <p>Xem tất cả</p>
+                        <ion-icon name="arrow-forward-outline"></ion-icon>
+                    </div>
+                    <div class="zoom">
+                        <img src="./asset/ManBanner.jpg" alt="">
+                    </div>
+                </div>
             </div>
-            <div class="feman-render man-products">
-
+            <div class="man-products">
             </div>
         </div>
-    </div>
-    <div class="news">
-        <h2 class="products-title">TIN TỨC</h2>
-        <div class="line"></div>
-        <div class="news-item feman-p head-feman">
-            <div class="new margin">
-                <img src="./asset/news1.jpg" alt="">
-                <h3>Chọn mua dây đồng hồ theo phong thủy mà bạn nên biết</h3>
-                <span class="tintuc">Tin tức</span>
+        <div class="box-femanClock">
+            <div class="feman-title">
+                <h2 class="products-title">ĐỒNG HỒ NỮ</h2>
+                <div class="line"></div>
+                <div class="head-feman">
+                    <div class="head-img zoom">
+                        <img src="./asset/clockFemale/bannerClock.jpg" alt="">
+                    </div>
+                    <div class=" width">
+                        <ul class="seller-item margin">
+                            <li><img src="./asset/clockFemale/clockn1.jpg" alt=""> </li>
+                            <h2>Black Link</h2>
+                            <p class="money">2.000.000<u>đ</u></p>
+                            <ion-icon class="show" name="eye-outline"></ion-icon>
+                            <ion-icon class="add-cart" name="cart-outline"></ion-icon>
+                            <span class="sale">-25%</span>
+                        </ul>
+                        <ul class="seller-item margin">
+                            <li> <img src="./asset/clockFemale/clockn3.jpg" alt=""></li>
+                            <h2>Slate</h2>
+                            <p class="money">10.000.000<u>đ</u></p>
+                            <ion-icon class="show" name="eye-outline"></ion-icon>
+                            <ion-icon class="add-cart" name="cart-outline"></ion-icon>
+                            <span class="sale">-29%</span>
+                        </ul>
+                    </div>
+                </div>
+                <div class="feman-render man-products">
 
-                <ion-icon class="clock-icon" name="time-outline"></ion-icon><span>09/12/2021</span>
-                <p>Người mệnh Kim Mặt đồng hồ có dạng hình tròn, hình oval, hình elip tượng trưng cho hành kim, bạn nên chọn những ...</p>
-                <div class="more"><span> Xem thêm</span>
-                    <ion-icon name="arrow-forward-outline"></ion-icon>
                 </div>
             </div>
-            <div class="new margin">
-                <img src="./asset/news2.jpg" alt="">
-                <h3>Cách phối dây da đơn giản mà cực kì hiệu quả</h3>
-                <span class="tintuc">Tin tức</span>
+        </div>
+        <div class="news">
+            <h2 class="products-title">TIN TỨC</h2>
+            <div class="line"></div>
+            <div class="news-item feman-p head-feman">
+                <div class="new margin">
+                    <img src="./asset/news1.jpg" alt="">
+                    <h3>Chọn mua dây đồng hồ theo phong thủy mà bạn nên biết</h3>
+                    <span class="tintuc">Tin tức</span>
 
-                <ion-icon class="clock-icon" name="time-outline"></ion-icon><span class="date-text">09/12/2021</span>
-                <p>Phối màu đồng bộ với mặt đồng hồ hoặc phù hợp với một chi tiết nhỏ của đồng hồ Hiện nay trên thị trường có rất n...</p>
-                <div class="more"><span>Xem thêm</span>
-                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                    <ion-icon class="clock-icon" name="time-outline"></ion-icon><span>09/12/2021</span>
+                    <p>Người mệnh Kim Mặt đồng hồ có dạng hình tròn, hình oval, hình elip tượng trưng cho hành kim, bạn
+                        nên
+                        chọn những ...</p>
+                    <div class="more"><span> Xem thêm</span>
+                        <ion-icon name="arrow-forward-outline"></ion-icon>
+                    </div>
+                </div>
+                <div class="new margin">
+                    <img src="./asset/news2.jpg" alt="">
+                    <h3>Cách phối dây da đơn giản mà cực kì hiệu quả</h3>
+                    <span class="tintuc">Tin tức</span>
+
+                    <ion-icon class="clock-icon" name="time-outline"></ion-icon><span
+                        class="date-text">09/12/2021</span>
+                    <p>Phối màu đồng bộ với mặt đồng hồ hoặc phù hợp với một chi tiết nhỏ của đồng hồ Hiện nay trên thị
+                        trường có rất n...</p>
+                    <div class="more"><span>Xem thêm</span>
+                        <ion-icon name="arrow-forward-outline"></ion-icon>
+                    </div>
+                </div>
+                <div class="new margin">
+                    <img src="./asset/news3.jpg" alt="">
+                    <h3>Hướng dẫn cách lên dây cót đồng hồ cơ đúng cách</h3>
+                    <div>
+                        <ion-icon class="clock-icon" name="time-outline"></ion-icon><span>09/12/2021</span>
+                    </div>
+                    <p>Phân loại đồng hồ dựa trên cách lên dây cót Có 2 loại đồng hồ cơ: Đồng hồ cơ lên dây cót bằng tay
+                        (Hand winding)...</p>
+                    <div class="more"><span>Xem thêm</span>
+                        <ion-icon name="arrow-forward-outline"></ion-icon>
+                    </div>
                 </div>
             </div>
-            <div class="new margin">
-                <img src="./asset/news3.jpg" alt="">
-                <h3>Hướng dẫn cách lên dây cót đồng hồ cơ đúng cách</h3>
-                <div>
-                    <ion-icon class="clock-icon" name="time-outline"></ion-icon><span>09/12/2021</span></div>
-                <p>Phân loại đồng hồ dựa trên cách lên dây cót Có 2 loại đồng hồ cơ: Đồng hồ cơ lên dây cót bằng tay (Hand winding)...</p>
-                <div class="more"><span>Xem thêm</span>
-                    <ion-icon name="arrow-forward-outline"></ion-icon>
-                </div>
-            </div>
+        </div>
+        <!-- Table mua hàng -->
+        <div class="table-products">
+            <span>Trang chủ</span>
+            <span>/</span>
+            <span>Giỏ hàng</span>
+            <table class="tables">
+                <thead>
+                    <tr>
+                        <th>Ảnh sản phẩm</th>
+                        <th>Tên sản phẩm</th>
+                        <th>Đơn giá</th>
+                        <th>Số lượng </th>
+                        <th>Thành tiền</th>
+                        <th>Xóa</th>
+                    </tr>
+                </thead>
+                <tbody class="price-clock">
+
+                </tbody>
+            </table>
         </div>
     </div>
     <div class="big-brand">
@@ -372,9 +424,66 @@
     <div class="details">
 
     </div>
-    <div class="im">
-        <img src="./asset/detailPk/img1p1.jpg" alt="">
+    <!-- Form đăng kí -->
+    <div class="formRegister">
+        <form id="form">
+            <div class="head__form flexBetween">
+                <h2>Đăng kí</h2>
+                <ion-icon class="close__form close__regis" name="close-outline"></ion-icon>
+            </div>
+            <div class="mb-3">
+                <input type="text" class="form-control" id="fullname" placeholder="FullName">
+                <div class="errMess"></div>
+            </div>
+
+            <div class="mb-3">
+                <input type="password" class="form-control" id="password" placeholder="Password">
+                <div class="errMess"></div>
+            </div>
+            <div class="mb-3">
+                <input type="email" class="form-control" id="emails" placeholder="Email address">
+                <div class="errMess"></div>
+            </div>
+
+            <div class="mb-3 form-check">
+                <input type="radio" name="gender" id="man" value="Nam">
+                <label for="man">Nam</label>
+                <input type="radio" name="gender" id="feman" value="Nữ">
+                <label for="feman">Nữ</label>
+                <div class="errMess"></div>
+            </div>
+            <button type="submit" class="btn btn-primary">Đăng kí</button>
+
+            <h3 class="or">Hoặc</h3>
+            <div class="other flexBetween">
+                <div class="other__item flexBetween btn-primary">
+                    <ion-icon class="center size30 " name="logo-facebook"></ion-icon>
+                    <p class="mleft30">Facebook</p>
+                </div>
+                <div class="other__item flexBetween btn-primary">
+                    <img id="ggicon" class="center" src="./asset/googleicon.png" alt="">
+                    <p class="mleft ">Google</p>
+                </div>
+                <div class="other__item flexBetween black ">
+                    <ion-icon class="center size30" name="logo-apple"></ion-icon>
+                    <p class="mleft">Apple</p>
+                </div>
+            </div>
+            <div class="convert_login">
+                <p class="colorGrey">Bạn đã có tài khoản?</p>
+                <p class="colorBlue"><a href="">Đăng nhập</a></p>
+
+            </div>
+        </form>
     </div>
+    <!-- thông báo thành công -->
+    <div class="sussec ">
+        <div class="alert">
+            <ion-icon class="icon-alert" name="checkmark-outline"></ion-icon>
+            <h3>Đã thêm thành công</h3>
+        </div>
+    </div>
+
     <script src="./Clock_Sale.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>

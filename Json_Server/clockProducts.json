@@ -1,0 +1,378 @@
+{
+    "product": [{
+            "name": "Black Link",
+            "img": "./asset/clock2.jpg",
+            "id": 1,
+            "price": 2000000,
+            "sale": 29,
+            "imgDetail": [
+                "./asset/img1Mini1.jpg",
+                "./asset/img1Mini2.jpg",
+                "./asset/img1Mini3.jpg",
+                "./asset/img1Mini4.jpg",
+                "./asset/detailMan/img3p2.jpg",
+                "./asset/detailMan/img3p4.jpg"
+            ]
+        },
+        {
+            "name": "Black in",
+            "img": "./asset/clock3.jpg",
+            "id": 2,
+            "price": 2000000,
+            "sale": 50,
+            "imgDetail": [
+                "./asset/detailMan/img2p1.jpg",
+                "./asset/detailMan/img2p2.jpg",
+                "./asset/detailMan/img2p3.jpg",
+                "./asset/detailMan/img2p4.jpg",
+                "./asset/detailMan/img3p2.jpg",
+                "./asset/detailMan/img2p1.jpg",
+                "./asset/detailMan/img3p2.jpg"
+            ]
+        },
+        {
+            "name": "space",
+            "img": "./asset/clock4.jpg",
+            "id": 3,
+            "price": 9000000,
+            "sale": 12,
+            "imgDetail": [
+                "./asset/detailMan/img3p1.jpg",
+                "./asset/detailMan/img3p2.jpg",
+                "./asset/detailMan/img3p3.jpg",
+                "./asset/detailMan/img3p4.jpg",
+                "./asset/detailMan/img3p2.jpg",
+                "./asset/detailMan/img2p1.jpg",
+                "./asset/detailMan/img3p2.jpg"
+            ]
+        },
+        {
+            "name": "Auto Matics",
+            "img": "./asset/clock5.jpg",
+            "id": 4,
+            "price": 200000,
+            "sale": 0,
+            "imgDetail": [
+                "./asset/detailMan/img4p1.jpg",
+                "./asset/detailMan/img4p2.jpg",
+                "./asset/detailMan/img4p3.jpg",
+                "./asset/detailMan/img4p4.jpg",
+                "./asset/detailMan/img3p2.jpg",
+                "./asset/detailMan/img2p1.jpg",
+                "./asset/detailMan/img3p2.jpg"
+            ]
+        },
+        {
+            "name": "Netize",
+            "img": "./asset/clock6.jpg",
+            "id": 5,
+            "price": 22000000,
+            "sale": 50,
+            "imgDetail": [
+                "./asset/detailMan/img5p1.jpg",
+                "./asset/detailMan/img5p2.jpg",
+                "./asset/detailMan/img5p3.jpg",
+                "./asset/detailMan/img5p4.jpg",
+                "./asset/detailMan/img3p2.jpg",
+                "./asset/detailMan/img2p1.jpg",
+                "./asset/detailMan/img3p2.jpg"
+            ]
+        },
+        {
+            "name": "Apple Watch",
+            "img": "./asset/clock7.jpg",
+            "id": 6,
+            "price": 4000000,
+            "sale": 0,
+            "imgDetail": [
+                "./asset/detailMan/img6p1.jpg",
+                "./asset/detailMan/img6p2.jpg",
+                "./asset/detailMan/img6p3.jpg",
+                "./asset/detailMan/img6p4.jpg",
+                "./asset/detailMan/img3p2.jpg",
+                "./asset/detailMan/img2p1.jpg",
+                "./asset/detailMan/img3p2.jpg"
+            ]
+        },
+        {
+            "name": "Benz",
+            "img": "./asset/clock8.jpg",
+            "id": 7,
+            "price": 5000000,
+            "sale": 0,
+            "imgDetail": [
+                "./asset/detailMan/img2p1.jpg",
+                "./asset/detailMan/img2p2.jpg",
+                "./asset/detailMan/img2p3.jpg",
+                "./asset/detailMan/img2p4.jpg",
+                "./asset/detailMan/img3p2.jpg",
+                "./asset/detailMan/img2p1.jpg",
+                "./asset/detailMan/img3p2.jpg"
+            ]
+        },
+        {
+            "name": "Rolex",
+            "img": "./asset/clock9.jpg",
+            "id": 8,
+            "price": 12000000,
+            "sale": 12,
+            "imgDetail": [
+                "./asset/detailMan/img8p1.jpg",
+                "./asset/detailMan/img8p2.jpg",
+                "./asset/detailMan/img8p3.jpg",
+                "./asset/detailMan/img8p4.jpg",
+                "./asset/detailMan/img3p2.jpg",
+                "./asset/detailMan/img2p1.jpg",
+                "./asset/detailMan/img3p2.jpg"
+            ]
+        },
+        {
+            "name": "space",
+            "img": "./asset/clock4.jpg",
+            "id": 9,
+            "price": 9000000,
+            "sale": 12,
+            "imgDetail": [
+                "./asset/detailMan/img3p1.jpg",
+                "./asset/detailMan/img3p2.jpg",
+                "./asset/detailMan/img3p3.jpg",
+                "./asset/detailMan/img3p4.jpg",
+                "./asset/detailMan/img3p2.jpg",
+                "./asset/detailMan/img2p1.jpg",
+                "./asset/detailMan/img3p2.jpg"
+            ]
+        },
+        {
+            "name": "space",
+            "img": "./asset/clock4.jpg",
+            "id": 10,
+            "price": 9000000,
+            "sale": 12,
+            "imgDetail": [
+                "./asset/detailMan/img3p1.jpg",
+                "./asset/detailMan/img3p2.jpg",
+                "./asset/detailMan/img3p3.jpg",
+                "./asset/detailMan/img3p4.jpg",
+                "./asset/detailMan/img3p2.jpg",
+                "./asset/detailMan/img2p1.jpg",
+                "./asset/detailMan/img3p2.jpg"
+            ]
+        },
+        {
+            "name": "space",
+            "img": "./asset/clock4.jpg",
+            "id": 10,
+            "price": 9000000,
+            "sale": 12,
+            "imgDetail": [
+                "./asset/detailMan/img3p1.jpg",
+                "./asset/detailMan/img3p2.jpg",
+                "./asset/detailMan/img3p3.jpg",
+                "./asset/detailMan/img3p4.jpg",
+                "./asset/detailMan/img3p2.jpg",
+                "./asset/detailMan/img2p1.jpg",
+                "./asset/detailMan/img3p2.jpg"
+            ]
+        }
+    ],
+    "product-feman": [{
+            "name": "Pinky",
+            "img": "./asset/clockFemale/clockn1.jpg",
+            "id": 1,
+            "price": 2000000,
+            "sale": 29,
+            "imgDetail": [
+                "./asset/detailFeman/img1p1.jpg",
+                "./asset/detailFeman/img1p2.jpg",
+                "./asset/detailFeman/img1p3.jpg",
+                "./asset/detailFeman/img1p4.jpg",
+                "./asset/detailFeman/img2p3.jpg",
+                "./asset/detailFeman/img2p4.jpg"
+            ]
+        },
+        {
+            "name": "Citize",
+            "img": "./asset/clockFemale/clockn2.jpg",
+            "id": 2,
+            "price": 2000000,
+            "sale": 50,
+            "imgDetail": [
+                "./asset/detailFeman/img2p1.jpg",
+                "./asset/detailFeman/img2p2.jpg",
+                "./asset/detailFeman/img2p3.jpg",
+                "./asset/detailFeman/img2p4.jpg",
+                "./asset/detailFeman/img2p3.jpg",
+                "./asset/detailFeman/img2p4.jpg"
+            ]
+        },
+        {
+            "name": "space",
+            "img": "./asset/clockFemale/clockn11.jpg",
+            "id": 3,
+            "price": 9000000,
+            "sale": 12,
+            "imgDetail": [
+                "./asset/detailFeman/img3p1.jpg",
+                "./asset/detailFeman/img3p2.jpg",
+                "./asset/detailFeman/img3p3.jpg",
+                "./asset/detailFeman/img3p2.jpg",
+                "./asset/detailFeman/img2p3.jpg",
+                "./asset/detailFeman/img2p4.jpg"
+            ]
+        },
+        {
+            "name": "Auto Matics",
+            "img": "./asset/clockFemale/clockn5.jpg",
+            "id": 4,
+            "price": 200000,
+            "sale": 0,
+            "imgDetail": [
+                "./asset/detailFeman/img4p1.jpg",
+                "./asset/detailFeman/img4p2.jpg",
+                "./asset/detailFeman/img4p3.jpg",
+                "./asset/detailFeman/img4p4.jpg",
+                "./asset/detailFeman/img2p3.jpg",
+                "./asset/detailFeman/img2p4.jpg"
+            ]
+        },
+        {
+            "name": "Netize",
+            "img": "./asset/clockFemale/clockn3.jpg",
+            "id": 5,
+            "price": 22000000,
+            "sale": 50,
+            "imgDetail": [
+                "./asset/detailFeman/img5p1.jpg",
+                "./asset/detailFeman/img5p2.jpg",
+                "./asset/detailFeman/img5p3.jpg",
+                "./asset/detailFeman/img5p4.jpg",
+                "./asset/detailFeman/img2p3.jpg",
+                "./asset/detailFeman/img2p4.jpg"
+            ]
+        },
+        {
+            "name": "Apple Watch",
+            "img": "./asset/clockFemale/clockn4.jpg",
+            "id": 6,
+            "price": 4000000,
+            "sale": 0,
+            "imgDetail": [
+                "./asset/detailFeman/img6p1.jpg",
+                "./asset/detailFeman/img6p2.jpg",
+                "./asset/detailFeman/img6p3.jpg",
+                "./asset/detailFeman/img6p4.jpg",
+                "./asset/detailFeman/img2p3.jpg",
+                "./asset/detailFeman/img2p4.jpg"
+            ]
+        },
+        {
+            "name": "Hannal",
+            "img": "./asset/clockFemale/clockn6.jpg",
+            "id": 7,
+            "price": 5000000,
+            "sale": 0,
+            "imgDetail": [
+                "./asset/detailFeman/img7p1.jpg",
+                "./asset/detailFeman/img7p2.jpg",
+                "./asset/detailFeman/img7p3.jpg",
+                "./asset/detailFeman/img7p4.jpg",
+                "./asset/detailFeman/img2p3.jpg",
+                "./asset/detailFeman/img2p4.jpg"
+            ]
+        },
+        {
+            "name": "Rolex",
+            "img": "./asset/clockFemale/clockn7.jpg",
+            "id": 8,
+            "price": 12000000,
+            "sale": 12,
+            "imgDetail": [
+                "./asset/detailFeman/img8p1.jpg",
+                "./asset/detailFeman/img8p2.jpg",
+                "./asset/detailFeman/img8p3.jpg",
+                "./asset/detailFeman/img8p4.jpg",
+                "./asset/detailFeman/img2p3.jpg",
+                "./asset/detailFeman/img2p4.jpg"
+            ]
+        }
+    ],
+    "phuKien": [{
+            "name": "Slate",
+            "img": "./asset/clockFemale/pk01.jpg",
+            "id": 1,
+            "price": 7000000,
+            "sale": 40,
+            "imgDetail": [
+                "./asset/detailPk/img1p1.jpg",
+                "./asset/detailPk/img1p2.jpg",
+                "./asset/detailPk/img1p3.jpg",
+                "./asset/detailPk/img1p4.jpg",
+                "./asset/detailPk/img1p3.jpg",
+                "./asset/detailPk/img1p4.jpg"
+            ]
+        },
+        {
+            "name": "Derset",
+            "img": "./asset/clockFemale/pk02.jpg",
+            "id": 2,
+            "price": 12000000,
+            "sale": 30,
+            "imgDetail": [
+                "./asset/detailPk/img2p1.jpg",
+                "./asset/detailPk/img2p2.jpg",
+                "./asset/detailPk/img2p3.jpg",
+                "./asset/detailPk/img2p4.jpg",
+                "./asset/detailPk/img1p3.jpg",
+                "./asset/detailPk/img1p4.jpg"
+            ]
+        },
+        {
+            "name": "Kitty",
+            "img": "./asset/clockFemale/pk03.jpg",
+            "id": 3,
+            "price": 12000000,
+            "sale": 20,
+            "imgDetail": [
+
+                "./asset/detailPk/img4p1.jpg",
+                "./asset/detailPk/img4p2.jpg",
+                "./asset/detailPk/img4p3.jpg",
+                "./asset/detailPk/img4p4.jpg",
+                "./asset/detailPk/img1p3.jpg",
+                "./asset/detailPk/img1p4.jpg"
+            ]
+        },
+        {
+            "name": "MlemMlem",
+            "img": "./asset/clockFemale/pk04.jpg",
+            "id": 4,
+            "price": 4000000,
+            "sale": 12,
+            "imgDetail": [
+                "./asset/detailPk/img5p1.jpg",
+                "./asset/detailPk/img5p2.jpg",
+                "./asset/detailPk/img5p3.jpg",
+                "./asset/detailPk/img5p4.jpg",
+                "./asset/detailPk/img1p3.jpg",
+                "./asset/detailPk/img1p4.jpg"
+            ]
+        },
+        {
+            "name": "Shaha",
+            "img": "./asset/clockFemale/pk05.jpg",
+            "id": 5,
+            "price": 1400000,
+            "sale": 12,
+            "imgDetail": [
+                "./asset/detailPk/img3p1.jpg",
+                "./asset/detailPk/img3p2.jpg",
+                "./asset/detailPk/img3p3.jpg",
+                "./asset/detailPk/img3p2.jpg",
+                "./asset/detailPk/img1p3.jpg",
+                "./asset/detailPk/img1p4.jpg"
+            ]
+        }
+
+
+    ]
+}

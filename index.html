@@ -69,18 +69,18 @@
 
 <body>
 
-    <form id="form">
+    <form id="form" method="post" action="./register.php">
         <h2 class="select-h2">Đăng kí tour</h2>
         <div class="mb-3">
-            <input type="text" name="" class="form-control" id="tour" placeholder="Tên tour">
+            <input type="text" name="tour" class="form-control" id="tour" placeholder="Tên tour">
             <div class="errMess"></div>
         </div>
         <div class="mb-3">
-            <input type="text" name="" class="form-control" id="tourID" placeholder="Mã tuor">
+            <input type="text" name="id" class="form-control" id="tourID" placeholder="Mã tuor">
             <div class="errMess"></div>
         </div>
         <div class="mb-3">
-            <input type="text" name="" class="form-control" id="donvi" placeholder="Đơn vị tổ chức">
+            <input type="text" name="sup" class="form-control" id="donvi" placeholder="Đơn vị tổ chức">
             <div class="errMess"></div>
         </div>
         <div class="mb-3">
@@ -91,11 +91,11 @@
             <div class="errMess"></div>
         </div>
         <div class="mb-3">
-            <input type="text" name="" class="form-control" id="quantity" placeholder="Số người đi cùng">
+            <input type="text" name="quantity" class="form-control" id="quantity" placeholder="Số người đi cùng">
             <div class="errMess"></div>
         </div>
         <div class="mb-3">
-            <input type="text" name="" class="form-control" id="price" placeholder="Giá tiền">
+            <input type="text" name="price" class="form-control" id="price" placeholder="Giá tiền">
             <div class="errMess"></div>
         </div>
         <button type="submit" class="btn btn-primary">Đăng kí</button>
@@ -114,8 +114,6 @@
             </tr>
         </thead>
         <tbody class="render">
-
-
         </tbody>
     </table>
     <div class="sussec">
@@ -123,7 +121,6 @@
             <h3>Đã thêm vào bảng</h3>
         </div>
     </div>
-    <h2>Sửaa đổi nội dung c12</h2>
     <script src="./script.js"></script>
 </body>
 
